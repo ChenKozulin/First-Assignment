@@ -12,3 +12,6 @@ freq <- table(ex.1)
 cumsum(freq)
 
 
+# this piece of code was added by Yoav Ben Dor as part of the excersize
+#the data is missing from the repository, so I could not run these lines
+plot(ex1.$height, main="height data",xlab="number", ylab="height [m]")
