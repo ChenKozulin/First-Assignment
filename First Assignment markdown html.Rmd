@@ -11,9 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+This R Markdown document includes a script for reading data from an external file, displaying paramters of the data you want, calculation of mean and median of the chosen parameter, several types of graphs of the data, data summary, data frequencies and cumulative frequencies.  
 
 ```{r ex.1}
 ex.1 <- read.csv("ex1.csv")
@@ -31,7 +29,7 @@ cumsum(freq)
 
 ## Including Plots
 
-You can also embed plots, for example:
+histogram and boxplots of height
 
 ```{r height, echo=FALSE}
 hist(ex.1$height)
